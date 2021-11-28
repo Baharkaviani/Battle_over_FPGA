@@ -1,0 +1,67 @@
+# Created by https://www.toptal.com/developers/gitignore/api/xilinxvivado
+# Edited by Bahar Kaviani
+
+### XilinxVivado ###
+###########################################################################
+#Exclude all
+*
+!*/
+!.gitignore
+###########################################################################
+##	VIVADO
+#Source files:
+#Do NOT ignore VHDL, Verilog, block diagrams or EDIF files.
+!*.vhd
+!*.v
+!*.bd
+!*.edif
+#IP files
+#.xci: IP-core property file with core container disabled
+!*.xci
+#*.dcp (checkpoint files: better be ignored!)
+#!*.dcp
+!*.vds
+!*.pb
+#All bd comments and layout coordinates are stored within .ui
+!*.ui
+!*.ooc
+#System Generator
+!*.mdl
+!*.slx
+!*.bxml
+#Simulation logic analyzer
+!*.wcfg
+!*.coe
+#MIG
+!*.prj
+!*.mem
+#Project files
+#XPR  +  *.XML ? XPR (Files are merged into a single XPR file for 2014.1 version)
+#Do NOT ignore *.xpr files
+!*.xpr
+#Include *.xml files for 2013.4 or earlier version
+!*.xml
+#Constraint files
+#Do NOT ignore *.xdc files
+!*.xdc
+#TCL - files
+!*.tcl
+#Journal - files
+!*.jou
+#Reports
+!*.rpt
+!*.txt
+!*.vdi
+#C-files
+!*.c
+!*.h
+!*.elf
+!*.bmm
+!*.xmp
+
+##	Unnecessary Files
+#Tutorial:
+#Ignore files in Tutorial directory.
+Tutorial/
+
+# End of .gitignore
