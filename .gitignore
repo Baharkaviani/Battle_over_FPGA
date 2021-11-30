@@ -22,6 +22,10 @@
 #Do NOT ignore *.md files
 !*.md
 
+#Circuit Pictures
+#Do NOT ignore pictures
+!*.jpeg
+
 ##	Unnecessary Files
 #Tutorial:
 #Ignore files in Tutorial directory.
