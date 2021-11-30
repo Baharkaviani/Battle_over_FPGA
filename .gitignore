@@ -18,6 +18,10 @@
 #Do NOT ignore *.xdc files
 !*.xdc
 
+#Markdown files
+#Do NOT ignore *.md files
+!*.md
+
 ##	Unnecessary Files
 #Tutorial:
 #Ignore files in Tutorial directory.
